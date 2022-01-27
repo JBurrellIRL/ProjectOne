@@ -1,0 +1,70 @@
+/* Google fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #2A2829;
+    background-color: hsl(60, 100%, 97%);
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 240%;
+    text-transform: uppercase;
+
+}
+
+/* Navigation styling  */
+
+#site-title {
+    float: left;
+    margin-left: 25px;
+    padding: 10px;
+    color: hsl(120, 19%, 37%)
+}
+
+
+#nav-menu li {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+/* Solution for reversed nav items, found on Stack Overflow  */
+
+.header ul {
+    float: right;
+}
+
+.header li {
+    float: left;
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-menu {
+    font-size: 120%;
+}
+
+#nav-menu,
+#site-title {
+    line-height: 75px;
+}
+
+#nav-menu a:hover {
+    border-bottom: 1px solid hsl(120, 19%, 37%);
+}
+
+.active {
+    border-bottom: 1px solid hsl(120, 19%, 37%);
+}
