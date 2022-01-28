@@ -37,7 +37,7 @@ h2 {
     margin-right: 40px;
 }
 
-/* Solution for reversed nav items, found on Stack Overflow  */
+/* Solution for reversed nav items, found on Stack Overflow. To float the list to the right, and then the list items to the left to create the correct ordered display  */
 
 .header ul {
     float: right;
@@ -67,4 +67,26 @@ h2 {
 
 .active {
     border-bottom: 1px solid hsl(120, 19%, 37%);
+}
+
+/* Banner image section */
+
+#banner-image {
+    height: 1080px;
+    width: 100%;
+    background: url(/assets/images/hero-image.jpg) center center / cover no-repeat fixed;
+}
+
+#banner-outer {
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#banner-text {
+    text-align: center;
+    position: relative;
+    top: 30%;
+
 }
