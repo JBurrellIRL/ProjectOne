@@ -151,6 +151,59 @@ h2 {
     margin: 1px;
 }
 
+/* Contact us section styling  */
+
+#contact-us-section {
+    /* clear: left; */
+    height: 800px;
+    position: relative;
+}
+
+.contact-form {
+    border: 2px solid #2A2829;
+    border-radius: 10px;
+    padding: 40px;
+    width: 33%;
+    margin: 10px 33% 10px 33%;
+    color: #2A2829;
+    ;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin: 5px 0 20px 0;
+}
+
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin: 5px 0 20px 0;
+}
+
+input[type=radio] {
+    margin: 5px 0 20px 0;
+}
+
+.submit-button {
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    font-size: 100%;
+    display: block;
+}
+
+.submit-button:hover {
+    background-color: #2A2829;
+    color: thistle;
+
+}
 
 /* Social media icons in footer */
 

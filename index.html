@@ -133,7 +133,33 @@
 
     </section>
 
-    <section>Contact Us section</section>
+    <section id="contact-us-section">
+        <form class="contact-form" method="POST" action="">
+            <h3>Contact us!</h3>
+            <label for="firstname">*First Name:</label>
+            <input type="text" class="text-field" id="firstname" name="first_name" placeholder="First Name" required>
+
+            <label for="lastname">*Last Name:</label>
+            <input type="text" class="text-field" id="lastname" name="last_name" placeholder="Last Name" required>
+
+            <label for="email">*Email Address:</label>
+            <input type="email" class="text-field" id="email" name="email_address" placeholder="Your Email Address"
+                required>
+            <label for="level">*Beginner</label>
+            <input type="radio" id="level" name="walker_level" required>
+
+            <label for="level">Intermediate</label>
+            <input type="radio" id="level" name="walker_level">
+
+            <label for="level">Advanced</label>
+            <input type="radio" id="level" name="walker_level">
+            <div class="tell-us-more">
+                <label for="tell-us-more">*Tell us more about yourself:</label>
+                <textarea name="tell-us-more" id="tell-us-more" cols="30" rows="10"></textarea>
+            </div>
+            <input type="submit" class="submit-button" value="Submit">
+        </form>
+    </section>
 
     <footer>
         <ul class="social-icons">
