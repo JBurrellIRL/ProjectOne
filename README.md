@@ -1,108 +1,51 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Waterford Hiking Club - Official Website
 
-Welcome JBurrellIRL,
+This is a static website for the Waterford Hiking Club. Our club was founded in 1987 by a group of friends. This site was created to allow people to find details about the club, its background, guidelines around how to join the club itself, and to get in touch with the club in advance of joining any planned walks. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## UX
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+This website is for both current members and also prospective members that might like to find out more about joining the club. 
+On the site, people can find out details about the club, read about it and its policies, see photos taken on previous walks by club members, and also get in touch either through a Contact Us form on the site itself, or by clicking through to club social media accounts.
 
-## Gitpod Reminders
+On the site itself, we have navigation links that take us directly to the section that the user wants to navigate to. We have both a site title with the name of the club and also a text area overlaying the banner, that includes the name of the club, making it easy for someone landing on the site for the first time to identify what the site is about.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* As a long-time club member, I'm interested in viewing newly-added items to the gallery. This area is updated on a regular basis so I'm interested in keeping an eye on this area. I also want easy access to the club's social media profiles, for updates on upcoming walks etc. 
+* As a possible new club member, I want an area where I can read basic details about the club (provided in the "About Us" section) as well as ways to contact the club itself, which I can do either via the Contact form, or by visiting the linked social media profiles.
+* I want to be linked to social media accounts regardless of whether I'm a long-term or new club member, for the most up-to-date information on up and coming events.
+* As someone who just happens upon the site, I want to know what this club is about. This website achieves this, with a text area and a gallery area.
 
-`python3 -m http.server`
+## Features
 
-A blue button should appear to click: _Make Public_,
+### Existing Features
 
-Another blue button should appear to click: _Open Browser_.
+* Feature 1: Navbar - Allows the user to clearly see what pages are part of the website and can be clicked, which will take them to the section of the page. Fixed nav bar gives people the option to click to different sections without having to scroll back to the top.
+* Feature 2: Banner section - Includes a background image of the Comeragh Mountains, and also a text overlay to inform the visitor about the purpose of the site.
+* Feature 3: About Us section - Gives a brief blurb about the history of the club, and also sections with the equipment required in order to join one of our hikes, and also some brief guidelines around what to expect when taking part in one of our hikes.
+* Feature 4: Contact form - Allows the user to get in touch with the club by encouraging visitors to leave their name, email address and a custom messsage, along with providing their current hiking ability. Users have to add information in the "Subject" line that summarises their message.
+* Feature 5: Linked social icons - Allows the user to reach social media profiles managed by the group, including Instagram, Facebook and Twitter.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Features Left to Implement
 
-A blue button should appear to click: _Make Public_,
+In the future, we are looking to add a dynamic section that auto-populates with upcoming events, both hiking and social. We have a plan in place to embed Facebook events to the site using the Facebook Page Plugin Widget. 
 
-Another blue button should appear to click: _Open Browser_.
+## Technologies Used
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Below is a list of languages, plugins and other tools used to create and develop this website. 
 
-To log into the Heroku toolbelt CLI:
+* HTML5: To structure the website and the content included on the website. Semantic tags were used to make each section and code's used obvious.
+* CSS3: To style the features used throughout the website to achieve design and placement targets e.g. adding padding, a background image, margins, fonts, and changing colors.
+* [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Open Sans' and 'Playfair Display' fonts into the style.css file which is used on all pages throughout the project.
+* [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used in the footer section to create the social media icons used in the site.
+* [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create a mock-up of the site to show to my mentor, prior to the site build.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Testing
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+1. Navbar: Go to the website and click each item to go to the right section. You can also do this through mobile. Nav bar remains fixed at the top of the page, to allow easy navigation between sections.
+2. Banner section - banner image is of sufficient resolution that it doesn't noticeably pixelate on larger screens. I have used a media query to resize the text within the banner text div, so that it remains readable 
+3. About Us section - paragraphs are evenly spaced across the page, and are responsive to mobile through the use of media queries. Unordered list bullet points are aligned with text using the list-style-position property.
+4. Gallery section - images are added and arranged into a masonry column layout. This area is also responsive to mobile through the use of a media query.
+5. Contact form: In the contact form section, the email address field will return an error if you don't enter an email address in the expected format. If you do not fill in a cell you cannot send your message and will receive an error asking you to fill in the relevant field. Each cell input is set to required, as all information requested through the form is important for the walking club.
+6. Linked social icons: In the footer there are social buttons linked to the relevant social networks. When clicked the user will be directed to other sites in a new open tab, to ensure that our site remains open and a click of the "Back" button is not required.

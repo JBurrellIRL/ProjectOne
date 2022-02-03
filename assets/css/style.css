@@ -12,6 +12,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #2A2829;
     background-color: hsl(60, 100%, 97%);
+    height: 100%;
 }
 
 h1,
@@ -23,6 +24,14 @@ h2 {
 }
 
 /* Navigation styling  */
+
+.header {
+    width: 100%;
+    position: fixed;
+    background-color: hsl(60, 100%, 97%);
+    z-index: 1;
+}
+
 
 #site-title {
     float: left;
@@ -59,7 +68,8 @@ h2 {
 
 #nav-menu,
 #site-title {
-    line-height: 75px;
+    line-height: 60px;
+    padding: 5px;
 }
 
 #nav-menu a:hover {
@@ -106,7 +116,8 @@ h2 {
 
 #about-us {
     height: 400px;
-    margin-right: 5%;
+    margin-right: 3%;
+    margin-left: 3%;
 
 }
 
@@ -152,12 +163,19 @@ h2 {
     margin: 1px;
 }
 
-/* Contact us section styling  */
+
+/* /* Contact us section styling  */
+
 
 #contact-us-section {
-    /* clear: left; */
     height: 800px;
     position: relative;
+    text-align: center;
+    padding: 40px;
+}
+
+#contact-us-section h2 {
+    padding: 30px;
 }
 
 /* box-shadow property obtained from w3schools  */
@@ -167,7 +185,7 @@ h2 {
     border-radius: 10px;
     padding: 40px;
     width: 33%;
-    margin: 10px 33% 10px 33%;
+    margin: 0 auto;
     color: #2A2829;
     box-shadow: 10px 15px;
 }
@@ -210,8 +228,13 @@ input[type=radio] {
 
 /* Social media icons in footer */
 
+footer {
+    height: 200px;
+}
+
 .social-icons {
     text-align: center;
+    margin-top: 100px;
 
 }
 
@@ -220,7 +243,7 @@ input[type=radio] {
 }
 
 .social-icons i {
-    font-size: 150%;
+    font-size: 200%;
     padding: 5px;
     margin: 2%;
     color: #2A2829;
@@ -249,6 +272,7 @@ input[type=radio] {
         width: 100%;
         text-align: left;
     }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -259,4 +283,5 @@ input[type=radio] {
     #gallery {
         column-count: 2;
     }
+
 }
