@@ -1,6 +1,6 @@
 /* Google fonts  */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
 
 * {
     margin: 0;
@@ -9,17 +9,17 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #2A2829;
-    background-color: hsl(60, 100%, 97%);
+    background-color: hsl(60, 7%, 87%);
     height: 100%;
 }
 
 h1,
 h2 {
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 240%;
-    text-transform: uppercase;
+    text-transform: capitalize;
 
 }
 
@@ -28,7 +28,7 @@ h2 {
 .header {
     width: 100%;
     position: fixed;
-    background-color: hsl(60, 100%, 97%);
+    background-color: hsl(60, 7%, 87%);
     z-index: 1;
 }
 
@@ -145,6 +145,7 @@ h2 {
     margin: 0 auto;
     text-align: center;
     list-style-position: inside;
+    
 }
 
 /* Gallery section  */
@@ -166,70 +167,108 @@ h2 {
 
 /* /* Contact us section styling  */
 
-
-#contact-us-section {
-    height: 800px;
-    position: relative;
-    text-align: center;
-    padding: 40px;
+#contact-us {
+    height: 50%;
 }
 
-#contact-us-section h2 {
-    padding: 30px;
-}
+input[type=text], [type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+/* Labels next to inputs */
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Submit button */
+  input[type=submit] {
+    background-color: hsl(218, 37%, 23%);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+  input[type=submit]:hover {
+      color: #fff;
+      background-color: #f16c6b;
+  }
+  
+  /* Style the container */
+  .container {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px 20% 5px 20%;
+  }
+  
+  /* Floated column for labels */
+  .labels {
+    float: left;
+    width: 25%;
+    margin-top: 8px;
+  }
+
+  .labels p {
+    float: left;
+    width: 40%;
+    margin-top: 8px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .inputs {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Footer styling  */
+  
+  footer {
+      height: 200px;
+  }
+  
+  #social-icons {
+      text-align: center;
+      margin-top: 100px;
+  
+  }
+  
+  #social-icons li {
+      display: inline;
+  }
+  
+  #social-icons i {
+      font-size: 200%;
+      padding: 25px;
+      margin: 1%;
+      color: hsl(218, 37%, 23%);
+  } */
 
 /* box-shadow property obtained from w3schools  */
 
-.contact-form {
-    border: 2px solid #2A2829;
-    border-radius: 10px;
-    padding: 40px;
-    width: 33%;
-    margin: 0 auto;
-    color: #2A2829;
-    box-shadow: 10px 15px;
-}
 
-input[type=text] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-    margin: 5px 0 20px 0;
-}
-
-input[type=email],
-textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-    margin: 5px 0 20px 0;
-}
-
-input[type=radio] {
-    margin: 5px 0 20px 0;
-}
-
-.submit-button {
-    padding: 20px 40px 20px 40px;
-    text-align: center;
-    font-size: 100%;
-    display: block;
-}
-
-.submit-button:hover {
-    background-color: #2A2829;
-    color: thistle;
-
-}
 
 /* Social media icons in footer */
 
 footer {
-    height: 200px;
+    height: 100px;
 }
 
 .social-icons {
@@ -283,5 +322,12 @@ footer {
     #gallery {
         column-count: 2;
     }
+
+    /* form labels and inputs stacking better on narrow screens  */
+    .labels, .inputs, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+    
 
 }

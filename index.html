@@ -112,7 +112,7 @@
             <img src="assets/images/comeragh2.jpg" alt="View from the mountain overlooking Coumshingaun lake">
             <img src="assets/images/comeragh3.jpg" alt="Ground-level view of Coumshingaun lake">
             <img src="assets/images/comeragh4.webp" alt="View looking down from the hillside through a valley">
-            <img src="assets/images/comeragh5.jpg" Panoramic view of adjoining mountain peaks">
+            <img src="assets/images/comeragh5.jpg" alt="Panoramic view of adjoining mountain peaks">
             <img src="assets/images/mahonfalls2.jpg" alt="Image of family trekking towards the Mahon Falls">
             <img src="assets/images/comeragh7.jpg" alt="Photo taken of the spine of the adjoining peak">
             <img src="assets/images/mahonfalls.jpg" alt="Photo of the Mahon Falls taken from a distance">
@@ -120,8 +120,65 @@
                 alt="View across the countryside with rock formation in the foreground">
         </div>
     </section>
+
+    <section id="contact-us">
+        <div class="container">
+            <h3>Contact Us!</h3>
+            <form class="contact-form" action="https://formdump.codeinstitute.net/" method="post">
+                <div class="row">
+                    <div class="labels">
+                        <label for="fname">*First Name:</label>
+                    </div>
+                    <div class="inputs">
+                        <input type="text" id="fname" name="firstname" placeholder="Your first name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="labels">
+                        <label for="lname">*Last Name</label>
+                    </div>
+                    <div class="inputs">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="labels">
+                        <label for="email">*Email Address</label>
+                    </div>
+                    <div class="inputs">
+                        <input type="email" id="email" name="email_address" placeholder="Your email address" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="labels">
+                        <p>Your Level:</p>
+                    </div>
+                    <div class="inputs" id="your-level">
+                        <label for="beginner">*Beginner</label>
+                        <input type="radio" id="beginner" name="ability" value="beginner" required>
+                        <label for="intermediate">Intermediate</label>
+                        <input type="radio" id="intermediate" name="ability" value="intermediate">
+                        <label for="advanced">Advanced</label>
+                        <input type="radio" id="advanced" name="ability" value="advanced">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="labels">
+                        <label for="subject">*Tell us more about yourself:</label>
+                    </div>
+                    <div class="inputs">
+                        <textarea id="subject" name="subject" placeholder="Write your message here"
+                            style="height:200px"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </section>
     <footer>
-        <ul class="social-icons">
+        <ul id="social-icons">
             <li>
                 <a href="https://facebook.com" aria-label="Go to our Facebook page (link opens in new tab)"
                     target="_blank"><i class="fab fa-facebook"></i></a>
