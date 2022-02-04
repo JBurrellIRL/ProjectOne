@@ -44,8 +44,15 @@ Below is a list of languages, plugins and other tools used to create and develop
 ## Testing
 
 1. Navbar: Go to the website and click each item to go to the right section. You can also do this through mobile. Nav bar remains fixed at the top of the page, to allow easy navigation between sections.
-2. Banner section - banner image is of sufficient resolution that it doesn't noticeably pixelate on larger screens. I have used a media query to resize the text within the banner text div, so that it remains readable 
+2. Banner section - banner image is of sufficient resolution that it doesn't noticeably pixelate on larger screens. I have used a media query to resize the text within the banner text div at a smaller screen width, so that it remains readable.
 3. About Us section - paragraphs are evenly spaced across the page, and are responsive to mobile through the use of media queries. Unordered list bullet points are aligned with text using the list-style-position property.
 4. Gallery section - images are added and arranged into a masonry column layout. This area is also responsive to mobile through the use of a media query.
-5. Contact form: In the contact form section, the email address field will return an error if you don't enter an email address in the expected format. If you do not fill in a cell you cannot send your message and will receive an error asking you to fill in the relevant field. Each cell input is set to required, as all information requested through the form is important for the walking club.
+5. Contact form: In the contact form section, the email address field will return an error if you don't enter an email address in the expected format. If you do not fill in a cell you cannot send your message and will receive an error asking you to fill in the relevant field. Each cell input is set to required, as all information requested through the form is important for the walking club. Each form field sends its data correctly to the server.
 6. Linked social icons: In the footer there are social buttons linked to the relevant social networks. When clicked the user will be directed to other sites in a new open tab, to ensure that our site remains open and a click of the "Back" button is not required.
+
+* The site was tested continuously across various modern browsers, especially in Google Chrome using the DevTools suite. I tested the site using the responsiveness tool, and the site is responsive across devices of varying screen widths. 
+
+## Validator Testing
+
+* HTML - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/).
+* No errors were found when passing through the official [CSS Validator](https://jigsaw.w3.org/css-validator/).

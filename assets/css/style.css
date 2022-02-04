@@ -25,7 +25,9 @@ h2 {
 
 /* Navigation styling  */
 
-.header {
+/* Fixed header  */
+
+#header {
     width: 100%;
     position: fixed;
     background-color: hsl(60, 7%, 87%);
@@ -37,7 +39,7 @@ h2 {
     float: left;
     margin-left: 25px;
     padding: 10px;
-    color: hsl(120, 19%, 37%)
+    color: hsl(218, 37%, 23%);
 }
 
 
@@ -49,17 +51,17 @@ h2 {
 
 /* Solution for reversed nav items, found on Stack Overflow. To float the list to the right, and then the list items to the left to create the correct ordered display  */
 
-.header ul {
+#header ul {
     float: right;
 }
 
-.header li {
+#header li {
     float: left;
 }
 
 #nav-menu a {
     text-decoration: none;
-    color: inherit;
+    color: hsl(218, 37%, 23%);
 }
 
 #nav-menu {
@@ -72,12 +74,14 @@ h2 {
     padding: 5px;
 }
 
+/* Hover and underline effects for navigation section  */
+
 #nav-menu a:hover {
-    border-bottom: 1px solid hsl(120, 19%, 37%);
+    border-bottom: 1px solid hsl(218, 37%, 23%);
 }
 
 .active {
-    border-bottom: 1px solid hsl(120, 19%, 37%);
+    border-bottom: 1px solid hsl(218, 37%, 23%);
 }
 
 /* Banner image section */
@@ -88,8 +92,6 @@ h2 {
     overflow: hidden;
     text-align: center;
     color: white;
-
-
 }
 
 #banner-image {
@@ -145,7 +147,7 @@ h2 {
     margin: 0 auto;
     text-align: center;
     list-style-position: inside;
-    
+
 }
 
 /* Gallery section  */
@@ -171,24 +173,31 @@ h2 {
     height: 50%;
 }
 
-input[type=text], [type=email], select, textarea {
+input[type=text],
+[type=email],
+select,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
-  }
-  
+}
+
+textarea {
+    height: 200px
+}
+
 /* Labels next to inputs */
 
-  label {
+label {
     padding: 12px 12px 12px 0;
     display: inline-block;
-  }
-  
-  /* Submit button */
-  input[type=submit] {
+}
+
+/* Submit button */
+input[type=submit] {
     background-color: hsl(218, 37%, 23%);
     color: white;
     padding: 12px 20px;
@@ -196,73 +205,70 @@ input[type=text], [type=email], select, textarea {
     border-radius: 4px;
     cursor: pointer;
     float: right;
-  }
+}
 
-  input[type=submit]:hover {
-      color: #fff;
-      background-color: #f16c6b;
-  }
-  
-  /* Style the container */
-  .container {
+input[type=submit]:hover {
+    color: #fff;
+    background-color: #f16c6b;
+}
+
+/* Form container styling */
+.container {
     border-radius: 10px;
     background-color: #f2f2f2;
     padding: 20px;
     margin: 20px 20% 5px 20%;
-  }
-  
-  /* Floated column for labels */
-  .labels {
+}
+
+/* Floated column for labels */
+.labels {
     float: left;
     width: 25%;
     margin-top: 8px;
-  }
+}
 
-  .labels p {
+.labels p {
     float: left;
     width: 40%;
     margin-top: 8px;
-  }
-  
-  /* Floating column for inputs: 75% width */
-  .inputs {
+}
+
+/* Floating column for inputs: 75% width */
+.inputs {
     float: left;
     width: 75%;
     margin-top: 6px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
+}
+
+/* Clear floats after the columns */
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
-  /* Footer styling  */
-  
-  footer {
-      height: 200px;
-  }
-  
-  #social-icons {
-      text-align: center;
-      margin-top: 100px;
-  
-  }
-  
-  #social-icons li {
-      display: inline;
-  }
-  
-  #social-icons i {
-      font-size: 200%;
-      padding: 25px;
-      margin: 1%;
-      color: hsl(218, 37%, 23%);
-  } */
+/* Footer styling  */
 
-/* box-shadow property obtained from w3schools  */
+footer {
+    height: 200px;
+}
 
+#social-icons {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+#social-icons li {
+    display: inline;
+}
+
+#social-icons i {
+    font-size: 200%;
+    padding: 25px;
+    margin: 1%;
+    color: hsl(218, 37%, 23%);
+}
 
 
 /* Social media icons in footer */
@@ -291,6 +297,7 @@ footer {
 /* Responsive design media queries  */
 
 @media screen and (max-width: 1100px) {
+
     #about-us {
         width: 80%;
         height: 1000px;
@@ -317,6 +324,7 @@ footer {
 @media screen and (max-width: 700px) {
     #banner-text {
         font-size: 55%;
+        margin-top: 40%;
     }
 
     #gallery {
@@ -324,10 +332,12 @@ footer {
     }
 
     /* form labels and inputs stacking better on narrow screens  */
-    .labels, .inputs, input[type=submit] {
+    .labels,
+    .inputs,
+    input[type=submit] {
         width: 100%;
         margin-top: 0;
-      }
-    
+    }
+
 
 }
