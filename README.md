@@ -20,27 +20,39 @@ On the site itself, we have navigation links that take us directly to the sectio
 
 ### Existing Features
 
-* Feature 1: Navbar - Allows the user to clearly see what pages are part of the website and can be clicked, which will take them to the section of the page. Fixed nav bar gives people the option to click to different sections without having to scroll back to the top.
+#### **Feature 1: Navbar** 
+
+Allows the user to clearly see what pages are part of the website and can be clicked, which will take them to the section of the page. Fixed nav bar gives people the option to click to different sections without having to scroll back to the top.
 
 ![Navigation Bar](https://github.com/JBurrellIRL/ProjectOne/blob/main/assets/images/readme/navigation.png?raw=true)
 
-* Feature 2: Banner section - Includes a background image of the Comeragh Mountains, and also a text overlay to inform the visitor about the purpose of the site.
+#### **Feature 2: Banner section**
+
+Includes a background image of the Comeragh Mountains, and also a text overlay to inform the visitor about the purpose of the site.
 
 ![Banner Image](https://github.com/JBurrellIRL/ProjectOne/blob/main/assets/images/readme/banner-image.png?raw=true)
 
-* Feature 3: About Us section - Gives a brief blurb about the history of the club, and also sections with the equipment required in order to join one of our hikes, and also some brief guidelines around what to expect when taking part in one of our hikes.
+#### **Feature 3: About Us section** 
+
+Gives a brief blurb about the history of the club, and also sections with the equipment required in order to join one of our hikes, and also some brief guidelines around what to expect when taking part in one of our hikes.
 
 ![About Us section](https://github.com/JBurrellIRL/ProjectOne/blob/main/assets/images/readme/about-us.png?raw=true)
 
-* Feature 4 - Gallery section - Allows the site visitor to view photos taken on previous walks by club members.
+#### **Feature 4 - Gallery section**
+
+Allows the site visitor to view photos taken on previous walks by club members.
 
 ![Gallery section](https://github.com/JBurrellIRL/ProjectOne/blob/main/assets/images/readme/gallery.png?raw=true)
 
-* Feature 5: Contact form - Allows the user to get in touch with the club by encouraging visitors to leave their name, email address and a custom messsage, along with providing their current hiking ability. Users have to add information in the "Subject" line that summarises their message.
+#### **Feature 5: Contact form**
+
+Allows the user to get in touch with the club by encouraging visitors to leave their name, email address and a custom messsage, along with providing their current hiking ability. Users have to add information in the "Subject" line that summarises their message.
 
 ![Contact Us section](https://github.com/JBurrellIRL/ProjectOne/blob/main/assets/images/readme/contact-us.png?raw=true)
 
-* Feature 5: Linked social icons - Allows the user to reach social media profiles managed by the group, including Instagram, Facebook and Twitter.
+#### **Feature 6: Linked social icons**
+
+Allows the user to reach social media profiles managed by the group, including Instagram, Facebook and Twitter.
 
 ![Site footer](https://github.com/JBurrellIRL/ProjectOne/blob/main/assets/images/readme/footer.png?raw=true)
 
@@ -72,7 +84,45 @@ Below is a list of languages, plugins and other tools used to create and develop
 
 * The site was tested continuously across various modern browsers, especially in Google Chrome using the DevTools suite. I tested the site using the responsiveness tool, and the site is responsive across devices of varying screen widths. 
 
+### Bugs
+
+* Resolved an issue where my banner image wasn't loading in any web browser, due to incorrect file path.
+* No further unresolved bugs have been detected.
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+* In the GitHub repository, navigate to the Settings tab, and under the GitHub Pages section, click on the "Check It Out Here" link.
+* From the source section drop-down menu, select the Master Branch
+* Once the master branch has been selected, click Save to automatically publish the page.
+* The live link can be found here - https://jburrellirl.github.io/ProjectOne/ 
+
 ## Validator Testing
 
 * HTML - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/).
 * No errors were found when passing through the official [CSS Validator](https://jigsaw.w3.org/css-validator/).
+
+## Credits
+
+Resources used include the following:
+
+* Code Institute - course content, Coders Coffeehouse and Love Running projects, for tutorials and help with HTML and CSS syntax.
+* Udemy Web Developer Bootcamp course, which I am also taking in parallel to this Code Institute course: https://www.udemy.com/course/the-web-developer-bootcamp/
+* Help with responsive design of form in Contact Us section was obtained from W3Schools tutorial: https://www.w3schools.com/howto/howto_css_responsive_form.asp 
+* Tips on styling form were obtained from W3Schools tutorial: https://www.w3schools.com/css/css_form.asp 
+* The icons in the footer were taken from Font Awesome - https://fontawesome.com/ 
+
+### Content
+
+* The text areas on the website were written by me. 
+* The image media displayed on the site comes from the following third-party sources:
+ - comeragh5: https://stocksnap.io/photo/mountains-nature-P0ZHH10FNJ
+ - https://waterfordcamino.com/wp-content/uploads/2018/09/mahonfalls.jpg
+ - https://www.thesun.ie/wp-content/uploads/sites/3/2019/09/mountain.png
+ - https://www.independent.ie/incoming/366fe/38480744.ece/AUTOCROP/w1240h700/mahonfalls.jpg
+ - https://outsider.ie/wp-content/uploads/2017/10/comeragh-mountains-4-1024x683.jpg
+ - https://images.squarespace-cdn.com/content/v1/5999b55abe6594fce2334596/1554576681137-7LAGIEZ53SX0ZMRIZ74J/Coumshingaun+Lake+Swim.jpg?format=1000w 
+ - https://tworockoutdoor.ie/images/Knockanaffrin_Comeraghs.png 
+ - 
+
