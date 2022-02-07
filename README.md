@@ -21,10 +21,28 @@ On the site itself, we have navigation links that take us directly to the sectio
 ### Existing Features
 
 * Feature 1: Navbar - Allows the user to clearly see what pages are part of the website and can be clicked, which will take them to the section of the page. Fixed nav bar gives people the option to click to different sections without having to scroll back to the top.
+
+![Navigation Bar](https://github.com/JBurrellIRL/ProjectOne/blob/main/assets/images/readme/navigation.png?raw=true)
+
 * Feature 2: Banner section - Includes a background image of the Comeragh Mountains, and also a text overlay to inform the visitor about the purpose of the site.
+
+![Banner Image](https://github.com/JBurrellIRL/ProjectOne/blob/main/assets/images/readme/banner-image.png?raw=true)
+
 * Feature 3: About Us section - Gives a brief blurb about the history of the club, and also sections with the equipment required in order to join one of our hikes, and also some brief guidelines around what to expect when taking part in one of our hikes.
-* Feature 4: Contact form - Allows the user to get in touch with the club by encouraging visitors to leave their name, email address and a custom messsage, along with providing their current hiking ability. Users have to add information in the "Subject" line that summarises their message.
+
+![About Us section](https://github.com/JBurrellIRL/ProjectOne/blob/main/assets/images/readme/about-us.png?raw=true)
+
+* Feature 4 - Gallery section - Allows the site visitor to view photos taken on previous walks by club members.
+
+![Gallery section](https://github.com/JBurrellIRL/ProjectOne/blob/main/assets/images/readme/gallery.png?raw=true)
+
+* Feature 5: Contact form - Allows the user to get in touch with the club by encouraging visitors to leave their name, email address and a custom messsage, along with providing their current hiking ability. Users have to add information in the "Subject" line that summarises their message.
+
+![Contact Us section](https://github.com/JBurrellIRL/ProjectOne/blob/main/assets/images/readme/contact-us.png?raw=true)
+
 * Feature 5: Linked social icons - Allows the user to reach social media profiles managed by the group, including Instagram, Facebook and Twitter.
+
+![Site footer](https://github.com/JBurrellIRL/ProjectOne/blob/main/assets/images/readme/footer.png?raw=true)
 
 ### Features Left to Implement
 
