@@ -1,6 +1,8 @@
 # Waterford Hiking Club - Official Website
 
-This is a static website for the Waterford Hiking Club. Our club was founded in 1987 by a group of friends. This site was created to allow people to find details about the club, its background, guidelines around how to join the club itself, and to get in touch with the club in advance of joining any planned walks. 
+This is a static website for the Waterford Hiking Club. Our club was founded in 1987 by a group of friends. This site was created to allow people to find details about the club, its background, guidelines around how to join the club itself, and to get in touch with the club in advance of joining any planned walks. Here's a screenshot of the site to show that it's responsive to different screen sizes:
+
+![Responsive Screenshot](https://github.com/JBurrellIRL/ProjectOne/blob/072be5a5e765d46c838ee7a4bdd70f65fc1ffcdd/assets/images/readme/responsivedesign.png?raw=true)
 
 ## UX
 
