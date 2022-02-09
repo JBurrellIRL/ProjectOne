@@ -40,6 +40,7 @@ h2 {
     margin-left: 25px;
     padding: 10px;
     color: hsl(218, 37%, 23%);
+
 }
 
 
@@ -87,7 +88,7 @@ h2 {
 /* Banner image section */
 
 #banner-section {
-    height: 800px;
+    height: 1000px;
     width: 100%;
     overflow: hidden;
     text-align: center;
@@ -95,7 +96,7 @@ h2 {
 }
 
 #banner-image {
-    height: 750px;
+    height: 1000px;
     width: 100%;
     background: url('../images/hero-image.jpg') center center / cover no-repeat fixed;
 }
@@ -117,36 +118,38 @@ h2 {
 /* About Us section  */
 
 #about-us {
-    height: 400px;
-    margin-right: 3%;
-    margin-left: 3%;
+    /* height: 675px; */
+    height: 25%;
+    margin: 3%;
 
 }
 
 #left-column {
-    padding: 25px 15px 0 30px;
+    padding-top: 25px;
     width: 33%;
     float: left;
-    text-align: left;
+    /* background-color: red; */
 
 }
 
 #right-column {
-    padding: 25px 15px 0 30px;
+    /* padding-top: 25px; */
+    padding: 25px 10px 10px 10px;
     width: 33%;
     float: right;
-    text-align: justify;
+    /* background-color: green; */
     list-style-position: inside;
 }
 
 /* Found the list style position code below on Stack Overflow, to keep the unordered list bullets attached to text  */
 
 #center-column {
-    padding-top: 25px;
+    /* padding: 25px 5px 5px 5px; */
+    padding: 25px 10px 10px 10px;
     width: 33%;
     margin: 0 auto;
-    text-align: center;
     list-style-position: inside;
+    /* background-color: cyan; */
 
 }
 
@@ -160,6 +163,10 @@ h2 {
     margin: 50px 30px 50px 30px;
 
 }
+
+/* .gallery {
+    margin: 10px;
+} */
 
 #gallery img {
     width: 100%;
@@ -234,11 +241,12 @@ input[type=submit]:hover {
     margin-top: 8px;
 }
 
-/* Floating column for inputs: 75% width */
+/* Inputs: 75% width */
 .inputs {
     float: left;
     width: 75%;
     margin-top: 8px;
+    line-height: 0px;
 }
 
 /* Clear floats after the columns */
@@ -297,12 +305,13 @@ footer {
 
 /* Responsive design media queries  */
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1300px) {
 
     #about-us {
         width: 80%;
         height: 1000px;
         margin: 0 auto;
+        padding-top: 20px
     }
 
     #left-column,
@@ -318,19 +327,85 @@ footer {
         padding: 0;
         width: 100%;
         text-align: left;
+        margin-bottom: 50px;
+    }
+
+    .form-container {
+        margin: 20px 5% 5px 5%;
     }
 
 }
 
 @media screen and (max-width: 700px) {
     #banner-text {
-        font-size: 55%;
-        margin-top: 40%;
+        font-size: 60%;
+        margin-top: 30%;
+        padding: 1em;
+        text-align: center;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        width: 60%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+    #site-title {
+        font-size: 150%;
+        line-height: 30px;
+        padding-top: 30px;
+        margin-left: 8px;
+    }
+
+    header nav {
+        clear: both;
+        float: left;
+        margin: 0;
+    }
+
+
+    #nav-menu {
+        font-size: 100%;
+
+    }
+
+    #nav-menu li {
+        /* margin-right: 25px; */
+        left: 0;
+        margin: 0;
+        padding: 5px;
+        letter-spacing: 0px;
+    }
+
+    #banner-text {
+        font-size: 65%;
+        margin-top: 30%;
+        padding: 1em;
+        text-align: center;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        width: 60%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
     }
 
     #gallery {
         column-count: 2;
     }
+
+    /* @media screen and (max-width: 380px) {
+
+        #nav-menu li {
+            list-style-type: none;
+            margin-right: 20px;
+            width: 100%;
+        }
+    } */
 
     /* form labels and inputs stacking better on narrow screens  */
     .labels,
@@ -339,6 +414,4 @@ footer {
         width: 100%;
         margin-top: 0;
     }
-
-
 }
