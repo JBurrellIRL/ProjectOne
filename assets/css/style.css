@@ -121,6 +121,7 @@ h2 {
     /* height: 675px; */
     height: 25%;
     margin: 3%;
+    scroll-margin-top: 10em;
 
 }
 
@@ -161,6 +162,7 @@ h2 {
     line-height: 0;
     column-gap: 1px;
     margin: 50px 30px 50px 30px;
+    scroll-margin-top: 10em;
 
 }
 
@@ -178,6 +180,8 @@ h2 {
 
 #contact-us {
     height: 50%;
+    /* scroll-margin-top fix for anchor behind sticky header found here: https://gomakethings.com/how-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header-with-one-line-of-css/ */
+    scroll-margin-top: 10em;
 }
 
 input[type=text],
