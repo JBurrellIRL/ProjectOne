@@ -118,7 +118,6 @@ h2 {
 /* About Us section  */
 
 #about-us {
-    /* height: 675px; */
     height: 25%;
     margin: 3%;
     scroll-margin-top: 10em;
@@ -129,28 +128,23 @@ h2 {
     padding-top: 25px;
     width: 33%;
     float: left;
-    /* background-color: red; */
 
 }
 
 #right-column {
-    /* padding-top: 25px; */
     padding: 25px 10px 10px 10px;
     width: 33%;
     float: right;
-    /* background-color: green; */
     list-style-position: inside;
 }
 
 /* Found the list style position code below on Stack Overflow, to keep the unordered list bullets attached to text  */
 
 #center-column {
-    /* padding: 25px 5px 5px 5px; */
     padding: 25px 10px 10px 10px;
     width: 33%;
     margin: 0 auto;
     list-style-position: inside;
-    /* background-color: cyan; */
 
 }
 
@@ -165,10 +159,6 @@ h2 {
     scroll-margin-top: 10em;
 
 }
-
-/* .gallery {
-    margin: 10px;
-} */
 
 #gallery img {
     width: 100%;
@@ -342,8 +332,7 @@ footer {
 
 @media screen and (max-width: 700px) {
     #banner-text {
-        font-size: 60%;
-        margin-top: 30%;
+        font-size: 70%;
         padding: 1em;
         text-align: center;
         position: relative;
@@ -387,7 +376,7 @@ footer {
 
     #banner-text {
         font-size: 65%;
-        margin-top: 30%;
+        /* margin-top: 30%; */
         padding: 1em;
         text-align: center;
         position: relative;
