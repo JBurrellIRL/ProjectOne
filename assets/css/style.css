@@ -116,6 +116,7 @@ h2 {
 }
 
 /* About Us section  */
+/* Layout created using inspiration from Love Running project walkthrough  */
 
 #about-us {
     height: 25%;
@@ -197,7 +198,8 @@ label {
     display: inline-block;
 }
 
-/* Submit button - used information from W3Schools tutorial for styling: https://www.w3schools.com/css/css_form.asp */
+/* Submit button - help obtained from W3Schools tutorial for styling: https://www.w3schools.com/css/css_form.asp */
+
 input[type=submit] {
     background-color: hsl(218, 37%, 23%);
     color: white;
@@ -367,7 +369,6 @@ footer {
     }
 
     #nav-menu li {
-        /* margin-right: 25px; */
         left: 0;
         margin: 0;
         padding: 5px;
@@ -376,7 +377,6 @@ footer {
 
     #banner-text {
         font-size: 65%;
-        /* margin-top: 30%; */
         padding: 1em;
         text-align: center;
         position: relative;
@@ -390,15 +390,6 @@ footer {
     #gallery {
         column-count: 2;
     }
-
-    /* @media screen and (max-width: 380px) {
-
-        #nav-menu li {
-            list-style-type: none;
-            margin-right: 20px;
-            width: 100%;
-        }
-    } */
 
     /* form labels and inputs stacking better on narrow screens  */
     .labels,
