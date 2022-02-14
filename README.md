@@ -14,7 +14,7 @@ On the site itself, we have navigation links that take us directly to the sectio
 * As a long-time club member, I'm interested in viewing newly-added items to the gallery. This area is updated on a regular basis so I'm interested in keeping an eye on this area. I also want easy access to the club's social media profiles, for updates on upcoming walks etc. 
 * As a possible new club member, I want an area where I can read basic details about the club (provided in the "About Us" section) as well as ways to contact the club itself, which I can do either via the Contact form, or by visiting the linked social media profiles.
 * I want to be linked to social media accounts regardless of whether I'm a long-term or new club member, for the most up-to-date information on up and coming events.
-* As someone who just happens upon the site, I want to know what this club is about. This website achieves this, with a text area and a gallery area.
+* As someone who just happens upon the site, I want to know what this club is about. This website achieves this, with a site title, banner text, text area and a gallery area that all inform the user as to the purpose of the website.
 
 ## Features
 
