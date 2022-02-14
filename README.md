@@ -115,8 +115,7 @@ Resources used include the following:
 
 * Code Institute - course content, Coders Coffeehouse and Love Running projects, for tutorials and help with HTML and CSS syntax.
 * Udemy Web Developer Bootcamp course, which I am also taking in parallel to this Code Institute course: https://www.udemy.com/course/the-web-developer-bootcamp/
-* Help with responsive design of form in Contact Us section was obtained from W3Schools tutorial: https://www.w3schools.com/howto/howto_css_responsive_form.asp 
-* Tips on styling form were obtained from W3Schools tutorial: https://www.w3schools.com/css/css_form.asp 
+* Coding assistance was obtained from Stack Overflow, W3Schools and above developer course. Comments are in CSS file. 
 * The icons in the footer are from Font Awesome - https://fontawesome.com/ 
 
 ### Content
