@@ -208,7 +208,7 @@ input[type=submit] {
     padding: 12px 20px;
     border: none;
     border-radius: 6px;
-    cursor: auto;
+    cursor: pointer;
     width: 100%;
     margin-top: 15px;
 }
@@ -317,6 +317,7 @@ footer {
         float: left;
         width: 100%;
         padding: 0;
+        margin-bottom: 50px;
     }
 
     #center-column {
@@ -393,12 +394,12 @@ footer {
         column-count: 2;
     }
 
-   @media screen and (max-width: 280px) {
+    @media screen and (max-width: 280px) {
 
         #nav-menu {
             line-height: 30px;
-        } 
-        
+        }
+
     }
 
     /* form labels and inputs stacking better on narrow screens  */

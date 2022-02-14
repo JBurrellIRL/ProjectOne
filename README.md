@@ -1,5 +1,7 @@
 # Waterford Hiking Club - Official Website
 
+Site URL: https://jburrellirl.github.io/ProjectOne/
+
 This is a static website for the Waterford Hiking Club. Our club was founded in 1987 by a group of friends. This site was created to allow people to find details about the club, its background, guidelines around how to join the club itself, and to get in touch with the club in advance of joining any planned walks. Here's a screenshot of the site to show that it's responsive to different screen sizes:
 
 ![Responsive Screenshot](https://raw.githubusercontent.com/JBurrellIRL/ProjectOne/main/assets/images/readme/amiresponsive.png)
@@ -106,8 +108,8 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ## Validator Testing
 
-* HTML - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/).
-* No errors were found when passing through the official [CSS Validator](https://jigsaw.w3.org/css-validator/).
+* HTML - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjburrellirl.github.io%2FProjectOne%2F).
+* No errors were found when passing through the official [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjburrellirl.github.io%2FProjectOne%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
 ## Credits
 
