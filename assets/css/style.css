@@ -50,7 +50,7 @@ h2 {
 }
 
 
-/* Solution for reversed nav items, found on Stack Overflow. To float the list to the right, and then the list items to the left to create the correct ordered display  */
+/* Solution for reversed nav items, found on Stack Overflow. To float the list to the right, and then the list items to the left to create the correct ordered display: https://stackoverflow.com/questions/4224476/floatright-reverses-order-of-spans  */
 
 #header ul {
     float: right;
@@ -140,7 +140,7 @@ h2 {
     list-style-position: inside;
 }
 
-/* Found the list style position code below on Stack Overflow, to keep the unordered list bullets attached to text  */
+/* Found the list style position code below on MDN, to keep the unordered list bullets attached to text: https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position  */
 
 #center-column {
     padding: 25px 10px 10px 10px;
